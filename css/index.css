@@ -1,0 +1,209 @@
+body{
+    background-color: #ddf0fe;
+}
+#tittle{
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    text-indent:25px;
+}
+.forum{
+    border-top: 2px solid #bcbdbf;
+    background-color: #fbfbfd;
+}
+.forum:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#main_body{
+    width: 700px;
+    background-color: white;
+    margin: 0 auto;
+}
+.author{
+    float: left;
+    width: 130px;
+    height: inherit;
+}
+.author p{
+    width: 130px;
+    text-align: center;
+    font-size: 12px;
+    word-break: break-all;
+}
+.author img{
+    margin: 25px;
+    width: 80px;
+    height: 80px;
+}
+.content{
+    float: left;
+    width: 570px;
+    padding-left: 25px;
+    border-left: 1px solid #ddeffe;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.content:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.content .contenttext{
+    float: left;
+    width: 500px;
+    word-break: break-all;
+}
+
+
+.content ul li{
+    margin-top: 10px;
+    word-break: break-all;
+}
+.content ul li:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.content p{
+    float: left;
+    margin-top: 30px;
+}
+.emoticon{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+.BDE_Image{
+    float: left;
+    width: 500px;
+    height: 280px;
+}
+#onefloor_content .function{
+    float: left;
+    margin-top: 35px;
+    margin-left:280px;
+
+}
+
+.function{
+    float: left;
+    margin-top: 250px;
+    margin-left: 260px;
+
+}
+
+.date{
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+    line-height: 25px;
+    color: #c1bbb4;
+}
+
+.reinside{
+    background-color:#f7f8fa ;
+    float: left;
+    width: 75px;
+}
+.reout{
+    float: left;
+}
+.del{
+float: left;
+    height: 20px;
+    padding-bottom: 5px;
+}
+
+.del span{
+
+}
+.trash{
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: none;
+    font-weight: 400;
+    border-radius: 0;
+
+}
+.reply{
+    width:500px;
+    float: left;
+    background-color: #f7f8fa;
+    margin-bottom: 10px;
+}
+.contentUl{
+    width:500px;
+}
+.contentUl li {
+    width: 500px;
+    text-indent: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.data{
+padding-left: 250px;
+}
+
+.data button{
+
+    width:50px;
+    height:25px;
+}
+
+.nametxt{
+    float: left;
+    margin-left: 20px;
+    line-height: 28px;
+}
+.replyName{
+    float: left;
+    margin-left: 10px;
+    width:100px;
+}
+.contenttxt{
+    float: left;
+    margin-left: 20px;
+    line-height: 28px;
+
+}
+.replyContent{
+    float: left;
+    margin-left: 10px;
+    width:350px;
+}
+.replyButton{
+    margin-left: 10px;
+    float: left;
+}
+.comment{
+    width: 700px;
+    border-top: 4px solid #bcbdbf;
+    padding-top: 50px;
+    background-color: #f7f8fa;
+    margin: 0 auto;
+}
+.initcomment{
+    width: 600px;
+    margin-left: 50px;
+    background-color: #fafafa;
+    border: 1px solid #dfdfdf;
+}
+textarea{
+    width:500px;
+    height: 200px;
+    margin: 20px 40px 40px 50px;
+
+}
+.publish{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.initcomment input{
+    margin-left: 50px;
+    margin-top: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery.js"></script>
+    <script src="js/publish.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="js/onload.js"></script>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <title>低仿百度贴吧</title>
+</head>
+
+<body>
+<div id="main_body">
+    <div id="tittle">没想到长草期的我 会找到……</div>
+    <div class="forum">
+    <div class="author" id="onefloor_author">
+    <img src="image/head.jpeg">
+        <p class="name">菊花怪</p>
+    </div>
+    <div class="content" id="onefloor_content">
+        <div class="contenttext"><p>没想到长草期的我 会找到……
+            </p><img class="emoticon" src="image/image_emoticon25.png">
+            <img class="emoticon" src="image/image_emoticon25.png"></div>
+
+        <img class="BDE_Image" src="image/shouzhi.png">
+        <div class="function">
+            <span class="date">2019-10-29 10:27:30</span>
+            <button type="button" class="reinside btn-link" onclick="addBeforReply(this)" style="display: none">收起回复</button>
+            <button type="button" class="reout btn-link" onclick="addAfterReply(this)" >回复</button>
+        </div>
+        <div class="reply" style="display: none">
+            <ul class="contentUl">
+            </ul>
+            <ul>
+                <li><span class="nametxt">姓名:</span><input type="text" class="replyName form-control" name="replyName" /></li>
+                <li><span class="contenttxt">内容:</span><input type="text" class="replyContent form-control" name="replyContent"/><button type="button" class="replyButton btn-primary btn-xs" onclick="addReply(this)">回复</button></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="comment">
+    <div class="initcomment">
+        <input type="text" name="name"/>
+        <textarea name="content"></textarea>
+    </div>
+    <button type="button" class="publish btn-primary btn-sm" onclick="publish(this)">发表</button>
+</div>
+</body>
+<script src="js/index.js"></script>
+</html>
